@@ -143,7 +143,7 @@ function check(e){
             buttons[i].disabled=true;
         }
         if(img_index<image_array.length){
-        setTimeout(remplissage_image)
+        setTimeout(remplissage_image,2000)
          }else{
             congrate_message();
          }
